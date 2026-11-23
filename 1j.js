@@ -14,9 +14,9 @@ const z = 200;
 
 
 if (true) {
-    var a = "var يتسرب لخارج الأقواس";
-    let b = "let محمي داخل الأقواس";
-    const c = "const محمي داخل الأقواس";
+    var a = "num1";
+    let b = " num2 ";
+    const c = "const num ";
     console.log(b);
 }
 
@@ -25,9 +25,9 @@ let score = 100;
 let namee = "أحمد";
 
 
-document.write(".. يتم كتابة النص المراد طباعته هنا");
-document.write("<h1> كتابة نص يقع عليه تأثير وسم من أوسمة ال html</h1>");
-document.write("<h1 style='color:red'> css طباعة نص يقع عليه تأثير خصائص ال </h1>");
+document.write("hello every one");
+document.write("<h1>my first program</h1>");
+document.write("<h1 style='color:red'>my first lang is paython </h1>");
 var name = "ali";
 document.write("<br>");
 
