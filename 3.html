@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <title> </title>
+<style>
+    body {
+        font-family: Arial;
+        background-color: aqua;
+    }
+   .main{
+            display:flex;
+            gap:20px;
+        }
+    .box{
+            border:2px solid red;
+            width:250px;
+            background-color:white;
+    }
+    button{
+        cursor:pointer;
+ }
+    
+</style>
+</head>
+<body>
+
+
+    اضهار التربيع = <button onclick="square()" id="btn">square</button>
+    <br>
+    اضهار التاريخ = <button onclick="showDate()" id="btn2">showDate</button>
+
+    <p id="myBox"> النص الاصلي </p><br>
+    <button onclick="addNewElement()">اضف حاويه نصية</button>
+    <div class="main-wrapper" id="aaa">
+
+        
+        <div class="box">
+            <h3>لوحة التحكم</h3>
+            <button onclick="showMenu()">إظهار قائمة الأصناف</button>
+        </div>
+
+        <div class="box" id="sweetsContainer">
+            <h3>قائمة أصناف الحلويات </h3>
+            <ul>
+                <li>كنافة بالقشطة</li>
+                <li>بقلاوة بالفستق</li>
+                <li>بسبوسة</li>
+                <li>تشيز كيك</li>
+                <li>أم علي</li>
+            </ul>
+            <button onclick="hideMenu()">إخفاء</button>
+        </div>
+
+    </div>
+
+</body>
+<script src="3j.js"></script>
+</html>
